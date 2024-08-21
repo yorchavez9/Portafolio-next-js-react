@@ -1,5 +1,7 @@
+import Hero from "@/components/Hero";
 import MobileNav from "@/components/MobileNav";
 import Nav from "@/components/Nav";
+import Particle from "@/components/Particle";
 import React, { useState } from "react";
 
 const HomePage = () => {
@@ -17,7 +19,8 @@ const HomePage = () => {
         <Nav openNav = {openNav} />
 
         {/* Hero section */}
-        
+        <Hero/>
+
       </div>
     </div>
   );
